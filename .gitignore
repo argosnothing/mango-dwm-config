@@ -8,3 +8,4 @@
 !/.config.jsonc
 !/.config.conf
 !/autostart.sh
+!/waybar/
