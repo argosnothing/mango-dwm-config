@@ -20,6 +20,7 @@ I have included a dev environment thorugh a flake in this repo. It's devshell cu
 * It will change your home directory in the environment. So tooling will likely start placing things in the repository.
 * The .gitignore is a whitelist so you shouldn't have to worry about this polluting your working tree if you happen to make a PR, but you will need to update the gitignore for file additions.
 * Installs st, waybar, wmenu, and kitty.
+* It includes the mango package that should run.
 
-You will need to bring your own mango executable, but theoretically, as long as you're on a wayland compositor doing all of this will let you run my dwm config, raw. Free of your Sucklessless ricing. 
+theoretically, as long as you're on a wayland compositor doing all of this will let you run my dwm config, raw. Free of your Sucklessless ricing. 
 
