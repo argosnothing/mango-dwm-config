@@ -18,7 +18,7 @@
           pkgs.waybar
         ];
       shellHook = ''
-        export PS1="(oxwm-dev) $PS1"
+        export PS1="(mango-dwm) $PS1"
         export HOME=$PWD
         export MANGOCONFIG=$PWD
       '';

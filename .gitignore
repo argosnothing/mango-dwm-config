@@ -1,2 +1,10 @@
 mango
 mrango
+flake.lock
+.bash_history
+.cache
+.config/
+.direnv/
+.local/
+.nix-profile
+.z

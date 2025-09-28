@@ -5,6 +5,7 @@ This is meant to provide a sensible mango default for DWM users. There is more y
 * https://github.com/DreamMaoMao/mangowc will list the dependencies and how to install
 * waybar
 * wmenu
+* kitty, although if you just swap the first bind in config.conf you can use whatever.
 
 
 This repository contains 3 files. 
