@@ -16,11 +16,14 @@
         buildInputs = [
           pkgs.wmenu
           pkgs.waybar
+          pkgs.st
         ];
       shellHook = ''
         export PS1="(mango-dwm) $PS1"
-        export HOME=$PWD
+        export GIT_CONFIG_GLOBAL="$HOME/.config/git/config"
+        export XDG_CONFIG_HOME=$PWD
         export MANGOCONFIG=$PWD
+        export HOME=$PWD #idk blame waybar
       '';
     };
   };

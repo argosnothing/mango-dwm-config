@@ -1,10 +1,10 @@
-mango
-mrango
-flake.lock
-.bash_history
-.cache
-.config/
-.direnv/
-.local/
-.nix-profile
-.z
+# If you're looking for the reason why your shit isn't getting tracked. 
+# You found it
+/*
+!/.gitignore
+!/.envrc
+!/.flake.nix
+!/.style.css
+!/.config.jsonc
+!/.config.conf
+!/autostart.sh
