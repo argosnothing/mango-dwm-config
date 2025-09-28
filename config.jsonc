@@ -1,0 +1,21 @@
+{
+"modules-left": [
+    "ext/workspaces",
+    //"dwl/tags",
+    "dwl/window"
+],
+  "ext/workspaces": {
+    "format": "{icon}",
+    "ignore-hidden": true,
+    "on-click": "activate",
+    "sort-by-id": true,
+  },
+  "dwl/tags": {
+      "num-tags":9,
+  },
+  "dwl/window": {
+      "format": "[{layout}]{title}"
+  }
+
+}
+

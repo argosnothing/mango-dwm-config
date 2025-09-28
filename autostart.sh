@@ -1,0 +1,1 @@
+waybar -c config.jsonc
