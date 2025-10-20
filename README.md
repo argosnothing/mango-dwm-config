@@ -16,7 +16,7 @@ If you are on NixOS you likely won't be placing these files here yourself. You c
 
 ## Another note for Nixers, or potentially anyone willing to use the nix packager
 
-I have included a dev environment thorugh a flake in this repo. It's devshell currently does a few things. 
+I have included a dev environment thorugh a flake in this repo. This is only meant to demo the config raw while in another wayland session. It's devshell currently does a few things. 
 * It will change your home directory in the environment. So tooling will likely start placing things in the repository.
 * The .gitignore is a whitelist so you shouldn't have to worry about this polluting your working tree if you happen to make a PR, but you will need to update the gitignore for file additions.
 * Installs st, waybar, wmenu, and kitty.
