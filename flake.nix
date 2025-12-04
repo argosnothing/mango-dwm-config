@@ -10,6 +10,8 @@
     system = "x86_64-linux";
     pkgs = import nixpkgs {inherit system;};
   in {
+    packages.${system}.mango = inputs.mango.packages.${system}.mango;
+
     devShells.${system}.default = pkgs.mkShell {
       buildInputs = [
         pkgs.wmenu
@@ -25,7 +27,7 @@
         export GIT_CONFIG_GLOBAL="$OLDHOME/.config/git/config"
         export XDG_CONFIG_HOME=$PWD
         export MANGOCONFIG=$PWD
-        export HOME=$PWD #idk blame waybar
+        export HOME=$PWD
       '';
     };
   };
