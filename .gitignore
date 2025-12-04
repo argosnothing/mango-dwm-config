@@ -1,11 +1,12 @@
-# If you're looking for the reason why your shit isn't getting tracked. 
-# You found it
 /*
 !/.gitignore
-!/.envrc
-!/.flake.nix
-!/.style.css
-!/.config.jsonc
-!/.config.conf
+!/flake.nix
+!/flake.lock
+!/README.md
 !/autostart.sh
-!/waybar/
+!/.config/
+/.config/*
+!/.config/waybar/
+!/.config/waybar/**
+!/.config/mango/
+!/.config/mango/**
