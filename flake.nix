@@ -10,8 +10,7 @@
     system = "x86_64-linux";
     pkgs = import nixpkgs {inherit system;};
   in {
-    packages.${system}.mango = inputs.mango.packages.${system}.mango;
-
+    packages.${system}.default = inputs.mango.packages.${system}.mango;
     devShells.${system}.default = pkgs.mkShell {
       buildInputs = [
         pkgs.wmenu
