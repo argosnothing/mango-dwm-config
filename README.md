@@ -8,9 +8,9 @@ This is meant to provide a sensible mango default for DWM users. There is more y
 * kitty, although if you just swap the first bind in config.conf you can use whatever.
 
 
-This repository contains 3 important files. 
-[mango configuration(.config/mango/config.conf)](.config/mango/config.conf)  
-[waybar config](.config/waybar/config.jsonc) and [waybar styling](.config/waybar/style.css) for dwm-like bar
+This repository contains 3 important files
+[mango configuration(config.conf)](.config/mango/config.conf) -> `~/.config/mango`
+[waybar config](.config/waybar/config.jsonc) and [waybar styling](.config/waybar/style.css) -> `~/.config/waybar`
 
 If you are on NixOS you likely won't be placing these files here yourself. You can use the Mango home manager module and source the settings and autostart_sh attributes to those files. You can do a similar thing with config.jsonc as well. 
 
