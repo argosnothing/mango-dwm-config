@@ -8,7 +8,7 @@ This is meant to provide a sensible mango default for DWM users. There is more y
 * kitty, although if you just swap the first bind in config.conf you can use whatever.
 
 
-This repository contains 3 important files
+This repository contains 3 important files  
 [mango configuration(config.conf)](.config/mango/config.conf) -> `~/.config/mango`
 [waybar config](.config/waybar/config.jsonc) and [waybar styling](.config/waybar/style.css) -> `~/.config/waybar`
 
