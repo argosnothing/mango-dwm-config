@@ -13,7 +13,8 @@ This repository contains 3 important files:
 [waybar config](.config/waybar/config.jsonc) and [waybar styling](.config/waybar/style.css) -> `~/.config/waybar`
 
 # Nix
-If you are on NixOS you likely won't be placing these files here yourself. You can use the Mango home manager module and source the settings and autostart_sh attributes to those files. You can do a similar thing with config.jsonc as well. 
+If you are on NixOS you likely won't be placing these files here yourself.  
+You can write these configurations through home manager or just link them directly from a file in your config.
 
 ## Another note for Nixers, or potentially anyone willing to use the nix packager
 
