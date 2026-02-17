@@ -1,7 +1,9 @@
 # mango-dwm-config
 This is meant to provide a sensible mango default for DWM users. There is more you can do to further make it emulate DWM, consider this your quickstart to doing so. 
 
-Example:  
+Example  
+<sub>showcasing tiling, vertical group, and vertical scroll layouts. </sub>
+---
 ![tmp Uc0xVxu8KE](https://github.com/user-attachments/assets/ca321ea2-7bc0-4d8c-9d56-2ed0face9056)
 
 
