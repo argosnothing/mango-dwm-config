@@ -1,6 +1,10 @@
 # mango-dwm-config
 This is meant to provide a sensible mango default for DWM users. There is more you can do to further make it emulate DWM, consider this your quickstart to doing so. 
 
+Example:
+![tmp YJuOHFGqiu](https://github.com/user-attachments/assets/7f4428b6-e36a-44da-9d0c-378044f86f78)
+
+
 ## Packages required
 * https://github.com/DreamMaoMao/mangowc will list the dependencies and how to install
 * waybar
